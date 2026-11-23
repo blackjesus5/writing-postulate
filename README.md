@@ -68,7 +68,15 @@ The order is the point. Audience and privacy come before tone. A protected recor
 | Evidence brief | A claim has to stay inspectable | Separate claim, source, status, and boundary |
 | Marketing or DevRel | The task is attention, launch, search, or conversion | Use supplied customer language, shipped proof, and one action |
 
-Full routing rules, including office files and channel adaptation, are in [references/routing.md](references/routing.md). The model-facing contract is [SKILL.md](SKILL.md).
+## Where the approaches are explained
+
+Two different things are easy to mix up.
+
+**Registers** are the writing jobs. The table above is the short list. [GUIDE.md](GUIDE.md) says how to choose one. [examples/by-purpose.md](examples/by-purpose.md) is the page that shows them: one trail-planner packet written as a summary, a README, a procedure, a lesson, an essay, a compassionate explanation, a letter, an evidence brief, and a marketing note. Each section ends with a line on what changed.
+
+**Methods** are the approaches under those jobs: concrete prose, plain mechanism, a pass against chatbot filler, purpose-matched summary, documentation discipline, office-file structure, and source-first marketing. Those are explained in sentences in [references/sources.md](references/sources.md), including what each approach keeps and what it refuses.
+
+The routing rules for summaries, documentation, office files, and marketing are in [references/routing.md](references/routing.md). The contract the model follows is [SKILL.md](SKILL.md).
 
 ## Install
 
@@ -141,7 +149,7 @@ The full set, with a line on why each one differs, is in [examples/by-purpose.md
 - Manufacture urgency, scarcity, consensus, fear, or quotations.
 - Optimize sentences to evade an AI detector. The aim is accurate prose for a reader, not a score.
 
-The methods it keeps, and the ones it refuses, are listed in [references/sources.md](references/sources.md).
+The methods it keeps, and the ones it refuses, are explained in [references/sources.md](references/sources.md).
 
 ## Repository map
 
@@ -151,7 +159,7 @@ The methods it keeps, and the ones it refuses, are listed in [references/sources
 | [GUIDE.md](GUIDE.md) | How to choose a register before you draft |
 | [examples/by-purpose.md](examples/by-purpose.md) | One source written for ten purposes |
 | [references/routing.md](references/routing.md) | Summaries, documentation, office files, and marketing gates |
-| [references/sources.md](references/sources.md) | Borrowed methods and deliberate refusals |
+| [references/sources.md](references/sources.md) | Each borrowed approach, in sentences, plus what it refuses |
 | [tests/scenarios.md](tests/scenarios.md) | Pass conditions for each route |
 | [LICENSE](LICENSE) | MIT |
 
