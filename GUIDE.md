@@ -1,11 +1,39 @@
 # Guide
 
+This page is for the person choosing a register. [SKILL.md](SKILL.md) is the
+contract the model follows. [examples/by-purpose.md](examples/by-purpose.md)
+shows the same facts written for different jobs.
+
 The postulate has two layers.
 
 The invariant layer does not change: concrete facts, evidence distinct from
 interpretation, an explicit limit, privacy, and no formulaic AI prose.
 
 The register changes because readers need different things.
+
+## How to ask
+
+Invoke `/writing-postulate`, then give four things when you have them:
+
+1. The source: a file path, a paste, or a description of what already exists.
+2. The reader: who has to decide, understand, act, or reply.
+3. The artifact: summary, README, procedure, lesson, essay, letter, brief, post, or office file.
+4. The boundary: what must stay out of the draft.
+
+If you name only the task, the skill infers a register from the route below.
+If two registers would produce different pages, it asks one question.
+
+Useful phrases:
+
+- "Decision summary. Keep the uncertainty."
+- "Technical README. Define the term once. Leave the commands alone."
+- "Procedure. Condition before the command."
+- "Teach this to someone new. One familiar example, then the mechanism."
+- "Public essay. No new facts and no moral at the end."
+- "Sensitive explanation. No diagnosis and no advice."
+- "Letter to one person. Plain request."
+- "Evidence brief. Claim, source, status, boundary."
+- "Release note from this changelog only. One action. No invented quotes."
 
 ## Choose a register
 
