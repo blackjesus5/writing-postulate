@@ -1,0 +1,11 @@
+.projectatlas/
+.DS_Store
+*.mp3
+*.wav
+*.m4a
+*.json
+*.srt
+*.vtt
+*.tsv
+.env
+.env.*
