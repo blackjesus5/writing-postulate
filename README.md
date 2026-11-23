@@ -80,19 +80,24 @@ The routing rules for summaries, documentation, office files, and marketing are 
 
 ## Install
 
-Copy `SKILL.md` into a skill folder. The folder name is the command.
+The skill folder has to contain `SKILL.md` and the `references/` and `examples/` directories beside it. The contract reads those files by relative path. Copying `SKILL.md` alone leaves the routes and examples unreachable.
 
-**Cursor**
+Link or copy this repository:
 
-```text
-~/.cursor/skills/writing-postulate/SKILL.md
+```bash
+ln -s /path/to/writing-postulate ~/.claude/skills/writing-postulate
+ln -s /path/to/writing-postulate ~/.cursor/skills/writing-postulate
 ```
 
-**Claude Code**
+Claude Code reads `~/.claude/skills`. Cursor reads `~/.cursor/skills`. The two folders are separate, so a skill installed for one does not appear in the other. A project-only copy can live at `.claude/skills/writing-postulate` inside that project.
+
+The skill is manual. In Claude Code, start a session in a normal directory, then run:
 
 ```text
-~/.claude/skills/writing-postulate/SKILL.md
+/writing-postulate
 ```
+
+If the command is missing, run `/reload-skills` or start a new session. Claude on the web does not read `~/.claude/skills`. For that product, add the same folder as a custom skill in the Claude skill settings.
 
 Start a chat with:
 
